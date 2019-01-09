@@ -6,14 +6,11 @@ Colllect and show teamscores on a nice website
 - When the scores are displayed then a little animation is done that will show every teamname as fade-in starting from lowest score to highest score
 
 # Requirements
-[Java Playframework](https://downloads.typesafe.com/play/1.5.2/play-1.5.2.zip) (only tested with Play-1.5.x)
-
-
+[Java Playframework](https://www.playframework.com) (only tested with [Play-1.5.x](https://downloads.typesafe.com/play/1.5.2/play-1.5.2.zip))
 
 ## Usage
-
 - clone the repository
-- install Java Playframework (version 1.5.x)
+- install Java Playframework (version [Play-1.5.x](https://downloads.typesafe.com/play/1.5.2/play-1.5.2.zip))
 - open a cmd and execute the command 'play run'
 
 ## Customization
