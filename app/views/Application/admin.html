@@ -1,0 +1,57 @@
+#{extends 'main.html' /} #{set title:'Home' /}
+
+
+<div>
+    <div class="w3-panel w3-red w3-left">
+        <span>Your the boss</span>
+    </div>
+    <div class='w3-panel w3-right'>
+        <button id="id-button-restart-count-down-timer" class="w3-btn w3-teal">Restart timer</button>
+    </div>
+
+</div>
+
+<div>
+
+
+    <table class="w3-table w3-striped">
+
+        <tr>
+            <!--<th style='width: 5%'>Stand</th>-->
+            <th>Team</th>
+            <th style='width:10%'>Tussen Score</th>
+            <th style='width:10%'>Totaal Score</th>
+        </tr>
+
+        #{list items:teams, as:'team'}
+        <tr class='table-row-team'>
+            <!--<td>${team_index}</td>-->
+            <td class='team-name'>${team.mName}</td>
+            <td><input type='number' class='tmp-score' value='0' style='width:70px;'/></td>
+            <td><input type='number' class='total-score' value='${team.mScore}' disabled="disabled" style='width:70px;'/></td>
+        </tr>
+        #{/list}
+        <tr>
+            <!--<td></td>-->
+            <td><span>Fade in interval (seconden)</span><br>
+                <input type='number' id='id-input-ranking-table-fade-in-interval' value='5'/></td>
+            <td colspan="2"><button id='id-button-apply-tmp-score'>Ranking Aanpassen</button></td>
+            <!--<td><button id='id-button-apply-total-score'>Totaal Stand Toepassen</button></td>-->
+        </tr>
+
+    </table>
+
+</div>
+
+<script src="@{'/public/javascripts/admin.js'}" type="text/javascript"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        console.log("document is ready");
+
+    });
+
+
+
+
+</script>
