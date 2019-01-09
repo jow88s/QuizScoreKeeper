@@ -12,6 +12,8 @@ Colllect and show teamscores on a nice website
 - clone the repository
 - install Java Playframework (version [Play-1.5.x](https://downloads.typesafe.com/play/1.5.2/play-1.5.2.zip))
 - open a cmd and execute the command 'play run'
+  - now, you can browse to http://localhost:9000 for the index.html that displays the scores of all the teams
+  - for administration, you can browse to http://localhost:9000/application/admin for entering scores for each team and starting a count-down timer
 
 ## Customization
 - Customizations are only 'hard-coded' possible
