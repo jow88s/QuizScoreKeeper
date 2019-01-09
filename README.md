@@ -15,8 +15,8 @@ Colllect and show teamscores on a nice website
 
 ## Customization
 - Customizations are only 'hard-coded' possible
-- You can change the number of teams in the file 'index.html' via the variable 'g_amountTeams'
-- You can change the amount of seconds the count-down timer will start in the file 'index.html' via the variable 'g_countDownTimerMax'
+  - You can change the number of teams in the file 'index.html' via the variable 'g_amountTeams'
+  - You can change the amount of seconds the count-down timer will start in the file 'index.html' via the variable 'g_countDownTimerMax'
 
 #### License MIT
 
